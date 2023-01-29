@@ -144,7 +144,7 @@ void filesave(char s[9], int player, int i)
     fprintf(fp, "|  %c  |  %c  |  %c  |\n", s[6], s[7], s[8]);
     fprintf(fp, " _____ _____ _____ \n\n\n");
     fprintf(fp, " Congrats Player %d ! You won in %d steps.\n\n", player, i + 1);
-    fprintf(fp, " Game created by the collaboration of : Biplav Poudel, Yogesh Bhandari, Sugam Rimal, Sharad Shres and Sandip Tamang.");
+    fprintf(fp, " Game created by Biplav");
     fclose(fp);
 }
 
